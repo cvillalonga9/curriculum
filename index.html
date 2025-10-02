@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./scrip.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="https://upload.wikimedia.org/wikipedia/en/7/7f/Aurora_%28Sleeping_Beauty%29.png" alt="">
+    <img id="foto" src="https://upload.wikimedia.org/wikipedia/en/7/7f/Aurora_%28Sleeping_Beauty%29.png" alt="">
     <section class="lila" id="DADESPERSONALS">
         <h1>DADES PERSONALS</h1>
-        <h2>Nom: Carlota Villalonga Ferrá</h2>
+        <h2 id="nom">Nom: Carlota Villalonga Ferrá</h2>
+        <br>
         <h2>Correu electrònic: carlotavillalongaf@gmail.com</h2>
         <h2>Telèfon: 629782313</h2>
         <h2>Data de naixement: 09/01/2009</h2>
@@ -33,6 +36,15 @@
         <h2>Idiomes: Castellà, Català i Anglès</h2>
         <h2></h2>
     </section>
+
+    <nav>
+        <button onclick="canviNom()">CANVIAR D'IDENTITAT</button>
+        <button onclick="canviFoto()">TRANSFORMAR EN SUPERGUERRER</button>
+        <button onclick="">VIATJAR A MALIBU</button>
+        <button onclick="">APRENDRE IDIOMES</button>
+        <button onclick="">TORNAR-SE INVISIBLE</button>
+        <button onclick="">AFEGIR INFORMACIO</button>
+    </nav>
     
 </body>
 </html>
